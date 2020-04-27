@@ -97,7 +97,6 @@ Resources:
           unzip -o udacity.zip
       IamInstanceProfile: !Ref "ProfileWithRolesForOurApp"
       ImageId: ami-003634241a8fcdec0
-      KeyName: udacity
       SecurityGroups:
         - Ref: WebServerSecGroup
       InstanceType: t3.small
